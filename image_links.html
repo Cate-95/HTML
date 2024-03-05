@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Image Links Page!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our image links page! Here's an image related to technology:</p>
+        <a href="https://example.com/technology"><img src="https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png" alt=" Technology Image "></a>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg" alt="Nature Image 1"></a>
+            <a href="https://example.com/nature"><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg" alt="Nature Image 2"></a>
+            <a href="https://example.com/nature"><img src="https://blogs.worldbank.org/sites/default/files/styles/hero/public/2022-12/environment_hero.jpg.webp?itok=Hf8gKgjU" alt="Nature Image 3"></a>
+            <!-- Add more nature images as needed -->
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li class="menu-item"><a href="https://example.com/food1"><img src="https://www.eatright.org/-/media/images/eatright-landing-pages/foodgroupslp_804x482.jpg?as=0&w=967&rev=d0d1ce321d944bbe82024fff81c938e7&hash=E6474C8EFC5BE5F0DA9C32D4A797D10D" alt="Food 1"> Food Item 1</a></li>
+            <li class="menu-item"><a href="https://example.com/food2"><img src="https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/food-spread.jpg?itok=PPXLuOYP" alt="Food 2"> Food Item 2</a></li>
+            <li class="menu-item"><a href="https://example.com/food3"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/3/21/0/fnd_pasta-istock.jpg.rend.hgtvcom.1280.720.suffix/1490188710731.jpeg" alt="Food 3"> Food Item 3</a></li>
+            <!-- Add more food items as needed -->
+        </ul>
+    </section>
+    
+    <footer>
+        <p>© 2024 Image Links. All rights reserved.</p>
